@@ -34,8 +34,9 @@ class TagManager
      *
      * @param string $tagName
      * @param mixed $content
+     * @param string $tagNamespace
      */
-    public function __construct($tagName, $content)
+    public function __construct($tagName, $content, $tagNamespace = TAG_NAMESPACE)
     {
         $tagName = strtolower($tagName);
 
@@ -43,7 +44,7 @@ class TagManager
             $tagName = $this->reserved[$tagName];
         }
 
-        $this->tagName = TAG_NAMESPACE . ucwords($tagName);
+        $this->tagName = $tagNamespace . ucwords($tagName);
         $this->content = $content;
     }
 

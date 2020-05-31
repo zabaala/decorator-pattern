@@ -1,5 +1,12 @@
 <FORM>
-    <TITLE value="a some value">Hello world PFXML document</TITLE>
-    <INCLUDE>/hello-world.html</INCLUDE>
-    <INCLUDE>/date.php</INCLUDE>
+    <CALC>
+        <SUM>
+            <FIRST>2</FIRST>
+            <SECOND>4</SECOND>
+        </SUM>
+        <SUM>
+            <FIRST>5</FIRST>
+            <SECOND>5</SECOND>
+        </SUM>
+    </CALC>
 </FORM>
