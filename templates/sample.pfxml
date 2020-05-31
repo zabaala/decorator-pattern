@@ -1,0 +1,5 @@
+<FORM>
+    <TITLE value="a some value">Hello world PFXML document</TITLE>
+    <INCLUDE>/hello-world.html</INCLUDE>
+    <INCLUDE>/date.php</INCLUDE>
+</FORM>
